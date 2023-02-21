@@ -1,0 +1,36 @@
+.content-container {
+    .margin-l-r-5 {
+        margin: 0 5px;
+    }
+
+    .margin-l-r-10 {
+        margin: 0 10px;
+    }
+
+    .student-manament {
+        width: 800px;
+        margin: 0 auto;
+
+        .item-manament {
+            &:first-child {
+                border-top: 1px solid grey;
+                margin-top: 20px;
+            }
+
+            height: 40px;
+            border-bottom: 1px solid grey;
+            margin: 10px;
+
+            .information {
+                float: left;
+
+
+            }
+
+            .manament-btn {
+                float: right;
+
+            }
+        }
+    }
+}

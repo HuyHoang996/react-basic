@@ -1,0 +1,47 @@
+.book-container {
+    button {
+        cursor: pointer;
+
+    }
+
+    .name {
+        margin: 0 10px;
+    }
+
+    .author {
+        margin: 0 auto;
+    }
+
+    .btn-add-book {
+        margin: 0 10px;
+    }
+
+    .list-book {
+        width: 600px;
+        margin: 0 auto;
+
+        .book-item {
+            &:first-child {
+                border-top: 1px solid grey;
+            }
+
+            height: 40px;
+            border-bottom: 1px solid grey;
+            margin: 10px;
+
+            .content {
+                float: left;
+            }
+
+            .btn-site {
+                float: right;
+
+                .btn-edit {
+                    margin: 0 10px;
+                }
+
+            }
+        }
+    }
+
+}
